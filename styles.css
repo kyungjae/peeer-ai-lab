@@ -187,6 +187,39 @@ nav {
   line-height: 1.82;
 }
 
+
+.page-hero {
+  max-width: 1180px;
+  margin: 0 auto;
+  padding: 96px 24px 50px;
+}
+
+.page-hero h1 {
+  max-width: 920px;
+  margin: 0;
+  font-size: clamp(42px, 6.2vw, 72px);
+  line-height: 1.13;
+  letter-spacing: -0.048em;
+  font-weight: 720;
+}
+
+.text-link {
+  flex: 0 0 auto;
+  color: var(--accent);
+  font-size: 15px;
+  font-weight: 740;
+  letter-spacing: -0.018em;
+}
+
+.compact-list a:nth-child(n+3),
+.preview-grid a:nth-child(n+3) {
+  display: none;
+}
+
+.page-list {
+  padding-top: 42px;
+}
+
 .content-section {
   max-width: 1180px;
   margin: 0 auto;
@@ -357,7 +390,8 @@ footer strong { color: var(--ink); }
     font-size: 14px;
   }
 
-  .hero { padding: 72px 20px 64px; }
+  .hero,
+  .page-hero { padding: 72px 20px 48px; }
 
   .hero h1 {
     font-size: clamp(38px, 10.5vw, 52px);
