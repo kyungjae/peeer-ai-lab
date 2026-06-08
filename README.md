@@ -16,3 +16,4 @@ Open http://127.0.0.1:4173/
 - `styles.css` — shared styling
 - `blog/` — workflow notes
 - `case-studies/` — workflow studies
+Deployment: connected to Vercel for production hosting.
