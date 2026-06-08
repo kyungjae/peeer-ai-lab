@@ -1,4 +1,4 @@
-# Peeer AI Lab
+# 피어 AI 랩
 
 AI workflow notes, studies, and practical systems for small businesses and design/product/brand teams.
 
